@@ -1,0 +1,38 @@
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 1.5rem;
+    width: 60%;
+    border-bottom: 1px solid #000;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.listItem__checkbox {
+    width: 1rem;
+    height: 1rem;
+}
+
+.listItem__text {
+    text-align: center;
+    font-size: 1.3rem;
+    transition: 0.5s linear all;
+}
+
+.done {
+    text-decoration: line-through;
+    color: forestgreen;
+}
+
+.inputEdit {
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+.inputEdit:focus {
+    color: red;
+}

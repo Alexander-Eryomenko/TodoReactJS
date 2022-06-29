@@ -1,0 +1,20 @@
+.wrapper-footer-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-footer-button .button:hover {
+    background-color: #fff;
+    transition: all 0.3s linear;
+}
+
+.wrapper-footer-button .button:active {
+    background-color: #fff;
+    transition: all 0.3s linear;
+}
+
+.gap {
+    display: flex;
+    column-gap: 0.6rem;
+}
